@@ -1,70 +1,62 @@
-body {
-    font-family: 'Roboto', Arial, sans-serif;
-    background-color: #b0b0b0;
-    color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+html, body {
+  font-family: 'Comic Sans MS', sans-serif;
+  background-color: #1e88e5; /* Blue background */
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-    background-color: #444;
-    margin: 0;
+header {
+  background-color: #3949ab; /* Darker blue */
+  padding: 10px 0;
+  text-align: center;
 }
 
-ul li {
-    display: inline-block;
-    margin: 0 15px;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-ul li a {
-    text-decoration: none;
-    color: #f0f0f0;
-    padding: 10px 15px;
-    background-color: #444;
-    transition: background-color 0.3s ease;
+nav ul li {
+  display: inline;
+  margin: 0 15px;
 }
 
-ul li a:hover {
-    background-color: #ff0000;
-    color: #fff;
+nav ul li a {
+  color: #bbdefb;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
 }
 
 h1, h2 {
-    text-align: center;
-    color: #ff0000;
-}
-
-p {
-    text-align: justify;
-    padding: 10px 20px;
-    color: #f0f0f0;
+  color: #ffffff;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #555;
-    margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 footer {
-    background-color: #444;
-    color: #f0f0f0;
-    text-align: center;
-    padding: 10px;
+  background-color: #3949ab;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
 }
 
-@media (max-width: 768px) {
-    ul li {
-        display: block;
-        margin: 10px 0;
-    }
-    
-    ul {
-        background-color: #ff0000;
-    }
+footer p {
+  margin: 0;
 }
